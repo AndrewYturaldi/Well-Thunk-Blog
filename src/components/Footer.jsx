@@ -1,11 +1,9 @@
-import '../styles/navbar.scss';
+import "../styles/footer.scss";
+import emailImage from "../images/emailImage.svg";
 
-function Navbar(){
-    return <nav className="nav">
-        <div id="header">
-            <a href="/" className="site-name">Well Thunk.</a>
-        </div>
-        <div id="navbar">
+function Footer(){
+    return <footer>
+        <div id="footer-navbar">
             <div>
                 <ul>
                     <li>
@@ -23,7 +21,13 @@ function Navbar(){
                 </ul>
             </div>
         </div>
-    </nav>
+        <div id="email-div">
+                    <img src={emailImage} />
+                    <p id="email-text">wellthunk@yturaldi.com</p>
+        </div>
+            <p id="logo-text">Well Thunk.</p>
+            <p id="copyright-text">&copy; Copyright 2024 Well Thunk.</p>
+    </footer>
 }
 
-export default Navbar;
+export default Footer;

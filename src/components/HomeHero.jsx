@@ -1,4 +1,4 @@
-import '../styles/homehero.css';
+import '../styles/homehero.scss';
 import heroImage from '../images/hero.jpg';
 
 function HomeHero(){

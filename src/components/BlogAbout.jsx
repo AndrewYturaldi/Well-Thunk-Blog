@@ -1,4 +1,4 @@
-import '../styles/blogabout.css';
+import '../styles/blogabout.scss';
 import aBlogAbout from '../images/aBlogAbout.jpg'
 
 function BlogAbout(){
