@@ -1,0 +1,84 @@
+@use "../global" as *;
+
+footer {
+    display: inline-block;
+    background-color: $dark-blue;
+    height: 274px;
+    width: 100%;
+}
+
+footer div {
+    display: block;
+    width: 100%;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-blue;
+    color: $white;
+    font-family: 'Courier Prime', Courier, monospace;
+    font-size: $p-font;
+    padding: 45px 0px 20px 0px;
+    height: 44px;
+}
+
+.footer-navbar div{
+    width: 440px;
+}
+
+.footer-navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    color: $white;
+    font-family: 'Courier Prime';
+    text-align: center;
+}
+
+.email-div div a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.email-div img {
+    padding-right: 8px;
+}
+
+.email-text{
+    font-size: $p-font;
+}
+
+.logo-text {
+    font-size: $h5-font;
+    font-family: 'Cooper Black';
+    color: $yellow;
+    margin-top: 15px;
+}
+
+.copyright-text {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+footer a {
+    cursor: pointer;
+    width: 280px;
+}
+
+.email-div a p:link { text-decoration: none; color: white; }
+.email-div a p:visited { text-decoration: none; color: white; }
+.email-div a p:hover { text-decoration: none; color: $yellow; cursor: pointer;}
+.email-div a p:active { text-decoration: none; color: white; }
+
+.email-div a img:hover { text-decoration: none; color: $yellow; cursor: pointer;}

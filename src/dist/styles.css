@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "Cooper Extra Bold";
+  src: url(../fonts/Cooper-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Cooper Black";
+  src: url(../fonts/Cooper-Black.ttf);
+}
+@font-face {
+  font-family: "Courier Prime";
+  src: url(../fonts/CourierPrime-Regular.ttf) format("truetype");
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffd000;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background-color: #02124a;
+  font-family: "Cooper Black";
+  font-size: 45px;
+  height: 80px;
+  text-align: center;
+}
+
+.header a {
+  color: #ffd000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #314f32;
+  color: #ffffff;
+  font-family: "Courier Prime", Courier, monospace;
+  font-size: 18px;
+  height: 44px;
+}
+
+.navbar div {
+  width: 440px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.homehero {
+  position: relative;
+}
+
+.home-p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  font-family: "Cooper Extra Bold";
+  font-size: 52px;
+  color: #1b4064;
+  text-align: center;
+}
+
+/*TO-DO: center text/span better?*/
+.box-link {
+  display: block;
+  background-color: #1b4064;
+  color: #f2ecd9;
+  padding: 0px 0px 8px 0px;
+  height: 85px;
+  width: 510px;
+  position: relative;
+  top: 20px;
+}
+
+a .box-link:link {
+  text-decoration: none;
+  color: white;
+}
+
+a .box-link:visited {
+  text-decoration: none;
+  color: #f2ecd9;
+}
+
+a .box-link:hover {
+  text-decoration: none;
+  color: #ffd000;
+  background-color: #02124a;
+  cursor: pointer;
+}
+
+a .box-link:active {
+  text-decoration: none;
+  color: #f2ecd9;
+}
+
+.blog-about {
+  background-color: #f2ecd9;
+  height: 728px;
+  width: 100%;
+}
+
+.blog-about img {
+  position: relative;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
+
+.blog-about p {
+  position: relative;
+  top: 76%;
+  font-family: "Courier Prime";
+  font-size: 26px;
+  color: #f2ecd9;
+  text-align: center;
+}
+
+.blog-about span {
+  background-color: #1b4064;
+  padding: 15px 25px;
+}
+
+a .box-link-explore:link {
+  text-decoration: none;
+  color: white;
+}
+
+a .box-link-explore:visited {
+  text-decoration: none;
+  color: #f2ecd9;
+}
+
+a .box-link-explore:hover {
+  text-decoration: none;
+  color: v #ffd000;
+  background-color: #02124a;
+  cursor: pointer;
+}
+
+a .box-link-explore:active {
+  text-decoration: none;
+  color: #f2ecd9;
+}
+
+.thinker {
+  display: flex;
+  width: 100%;
+}
+
+.right-div {
+  background-color: #02124a;
+  color: #ffffff;
+  font-family: "Cooper Black";
+  font-size: 45px;
+  margin: auto;
+  padding: 200px 60px;
+}
+
+.yellow-words {
+  color: #ffd000;
+}
+
+.next {
+  background-color: #f2ecd9;
+  height: 718px;
+  text-align: center;
+}
+.next h2 {
+  font-family: "Cooper Extra Bold";
+  color: #1b4064;
+  font-size: 45px;
+  padding-top: 45px;
+}
+.next .card-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 122px;
+}
+.next .next-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #314f32;
+  font-family: "Courier Prime";
+  font-size: 31.3px;
+  color: #ffffff;
+  width: 300px;
+  height: 300px;
+  box-shadow: 15px 15px black;
+}
+
+footer {
+  display: inline-block;
+  background-color: #02124a;
+  height: 274px;
+  width: 100%;
+}
+
+footer div {
+  display: block;
+  width: 100%;
+}
+
+.footer-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #02124a;
+  color: #ffffff;
+  font-family: "Courier Prime", Courier, monospace;
+  font-size: 18px;
+  padding: 45px 0px 20px 0px;
+  height: 44px;
+}
+
+.footer-navbar div {
+  width: 440px;
+}
+
+.footer-navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  color: #ffffff;
+  font-family: "Courier Prime";
+  text-align: center;
+}
+
+.email-div div a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.email-div img {
+  padding-right: 8px;
+}
+
+.email-text {
+  font-size: 18px;
+}
+
+.logo-text {
+  font-size: 26px;
+  font-family: "Cooper Black";
+  color: #ffd000;
+  margin-top: 15px;
+}
+
+.copyright-text {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+footer a {
+  cursor: pointer;
+  width: 280px;
+}
+
+.email-div a p:link {
+  text-decoration: none;
+  color: white;
+}
+
+.email-div a p:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.email-div a p:hover {
+  text-decoration: none;
+  color: #ffd000;
+  cursor: pointer;
+}
+
+.email-div a p:active {
+  text-decoration: none;
+  color: white;
+}
+
+.email-div a img:hover {
+  text-decoration: none;
+  color: #ffd000;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

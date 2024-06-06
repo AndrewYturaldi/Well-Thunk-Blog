@@ -1,0 +1,35 @@
+@use "../global" as *;
+
+.blog-about {
+    background-color: $tan;
+    height: 728px;
+    width: 100%;
+}
+
+.blog-about img {
+    position: relative;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.blog-about p {
+    position: relative;
+    top: 76%;
+    font-family: 'Courier Prime';
+    font-size: 26px;
+    color: $tan;
+    text-align: center;
+}
+
+.blog-about span {
+    background-color: $medium-blue;
+    padding: 15px 25px;
+}
+
+a .box-link-explore:link { text-decoration: none; color: white; }
+a .box-link-explore:visited { text-decoration: none; color: $tan; }
+a .box-link-explore:hover { text-decoration: none; color: v$yellow; background-color: $dark-blue; cursor: pointer;}
+a .box-link-explore:active { text-decoration: none; color: $tan; }
+
+

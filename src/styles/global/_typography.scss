@@ -1,0 +1,24 @@
+//font imports
+@font-face {
+    font-family: 'Cooper Extra Bold';
+    src: url(../fonts/Cooper-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Cooper Black';
+    src: url(../fonts/Cooper-Black.ttf);
+}
+
+@font-face{
+    font-family: 'Courier Prime';
+    src: url(../fonts/CourierPrime-Regular.ttf) format('truetype');
+}
+
+//font size variables
+$h1-font: 52px;
+$h2-font: 45px;
+$h3-font: 37.5px;
+$h4-font: 31.3px;
+$h5-font: 26px;
+$h6-font: 24px;
+$p-font: 18px;

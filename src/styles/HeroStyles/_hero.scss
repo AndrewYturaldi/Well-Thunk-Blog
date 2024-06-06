@@ -1,0 +1,33 @@
+@use "../global" as *;
+
+.homehero {
+    position: relative;
+}
+
+.home-p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-family: 'Cooper Extra Bold';
+    font-size: $h1-font;
+    color: $medium-blue;
+    text-align: center;
+}
+
+/*TO-DO: center text/span better?*/
+.box-link {
+    display: block;
+    background-color: $medium-blue;
+    color: $tan;
+    padding: 0px 0px 8px 0px;
+    height: 85px;
+    width: 510px;
+    position: relative;
+    top: 20px;
+}
+
+a .box-link:link { text-decoration: none; color: white; }
+a .box-link:visited { text-decoration: none; color: $tan; }
+a .box-link:hover { text-decoration: none; color: $yellow; background-color: $dark-blue; cursor: pointer;}
+a .box-link:active { text-decoration: none; color: $tan; }

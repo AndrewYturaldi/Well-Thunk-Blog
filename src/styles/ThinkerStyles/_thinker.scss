@@ -1,0 +1,19 @@
+@use '../global' as *;
+
+.thinker {
+    display: flex;
+    width: 100%;
+}
+
+.right-div {
+    background-color: $dark-blue;
+    color: $white;
+    font-family: 'Cooper Black';
+    font-size: $h2-font;
+    margin: auto;
+    padding: 200px 60px;
+}
+
+.yellow-words {
+    color: $yellow;
+}

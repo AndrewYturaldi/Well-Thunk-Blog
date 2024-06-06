@@ -1,0 +1,40 @@
+@use "../global" as *;
+
+a:link { text-decoration: none; color: white; }
+a:visited { text-decoration: none; color: white; }
+a:hover { text-decoration: none; color: $yellow; }
+a:active { text-decoration: none; color: white; }
+
+.header {
+    background-color: $dark-blue;
+    font-family: 'Cooper Black';
+    font-size: $h2-font;
+    height: 80px;
+    text-align: center;
+}
+
+.header a {
+    color: $yellow;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $green;
+    color: $white;
+    font-family: 'Courier Prime', Courier, monospace;
+    font-size: $p-font;
+    height: 44px;
+}
+
+.navbar div{
+    width: 440px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}

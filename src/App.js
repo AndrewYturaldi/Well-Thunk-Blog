@@ -1,15 +1,19 @@
+import './dist/styles.css';
 import Navbar from "../src/components/Navbar";
-import HomeHero from "../src/components/HomeHero";
+import Hero from "../src/components/Hero";
 import BlogAbout from "../src/components/BlogAbout";
+import Thinker from '../src/components/Thinker';
+import Next from '../src/components/Next';
 import Footer from "../src/components/Footer";
-import './App.css';
 
 function App() {
   return (
     <>
       <Navbar />
-      <HomeHero />
+      <Hero />
       <BlogAbout />
+      <Thinker />
+      <Next />
       <Footer />
     </>
   );
