@@ -72,13 +72,12 @@ footer p{
 }
 
 footer a {
-    cursor: pointer;
     width: 280px;
 }
 
 .email-div a p:link { text-decoration: none; color: white; }
 .email-div a p:visited { text-decoration: none; color: white; }
-.email-div a p:hover { text-decoration: none; color: $yellow; cursor: pointer;}
+.email-div a p:hover { text-decoration: none; color: $yellow; }
 .email-div a p:active { text-decoration: none; color: white; }
 
-.email-div a img:hover { text-decoration: none; color: $yellow; cursor: pointer;}
+.email-div a img:hover { text-decoration: none; color: $yellow; }

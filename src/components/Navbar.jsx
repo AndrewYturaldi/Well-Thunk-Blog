@@ -1,4 +1,15 @@
+//TO-DO: insert <Link> element and proper import instead of <a>
+import { Link } from "react-router-dom";
+import { useState } from "react";
+
 function Navbar(){
+    const [nav, setNav] = useState(false);
+
+    const openNav = () => {
+        setNav(!nav);
+    };
+
+
     return (
         <>
             <nav className="nav">
@@ -9,16 +20,24 @@ function Navbar(){
                     <div>
                         <ul>
                             <li>
-                                <a href="/home">Home</a>
+                                <Link onClick={openNav} to="/">
+                                    <a>Home</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/about">About</a>
+                                <Link onClick={openNav} to="/About">
+                                    <a>About</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/contact">Contact</a>
+                                <Link onClick={openNav} to="/Contact">
+                                    <a>Contact</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/articles">Articles</a>
+                                <Link onClick={openNav} to="/Articles">
+                                    <a>Articles</a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

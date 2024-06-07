@@ -1,20 +1,21 @@
 import './dist/styles.css';
 import Navbar from "../src/components/Navbar";
-import Hero from "../src/components/Hero";
-import BlogAbout from "../src/components/BlogAbout";
-import Thinker from '../src/components/Thinker';
-import Next from '../src/components/Next';
-import Footer from "../src/components/Footer";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Articles from './pages/Articles';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <BlogAbout />
-      <Thinker />
-      <Next />
-      <Footer />
+      <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route index path="/About" element={<About />} />
+        <Route index path="/Contact" element={<Contact />} />
+        <Route index path="/Articles" element={<Articles />} />
+      </Routes>
     </>
   );
 }
