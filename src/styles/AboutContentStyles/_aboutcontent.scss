@@ -11,7 +11,7 @@
             float:left;
                 
                 margin-left: -6px;
-                padding-top: 60px;
+                padding-top: 45px;
                 
             img {
                 
@@ -28,7 +28,7 @@
             }
 
             p {
-                padding-bottom: 22px;
+                padding-bottom: 52px;
             }
         }
     }
@@ -43,7 +43,7 @@
     }
     p {
         font-family: 'Courier Prime';
-        font-size: calc($p-font + 2px);
+        font-size: calc($p-font);
         color: $medium-blue;
         line-height: 1.24em;
     }

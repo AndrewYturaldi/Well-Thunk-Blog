@@ -2,11 +2,11 @@
 
 .contact-content {
     background-color: $tan;
-    min-height: 960px;
+    min-height: 875px;
     padding-top: 22px;
     font-family: 'Courier Prime';
     color: $medium-blue;
-    font-size: $p-font + 2;
+    font-size: $p-font;
 
     h2 {
         font-family: 'Cooper Extra Bold';
@@ -16,7 +16,8 @@
     }
 
     div{
-        padding: 0 475px;
+        width: 600px;
+        margin: auto;
         line-height: 1.24em;
     }
 
