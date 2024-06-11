@@ -1,0 +1,33 @@
+@use '../global' as *;
+
+.article {
+    width: 314px;
+}
+
+.section, .date {
+    font-family: 'Courier Prime';
+    font-size: $p-font;
+}
+
+.date {
+    margin-top: 8px;
+}
+
+.section {
+    color: $maroonish;
+}
+
+h4 {
+    font-family: 'Cooper Extra Bold';
+    font-size: $h4-font;
+    color: $medium-blue;
+    line-height: 1.25em;
+}
+
+.article-img {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
