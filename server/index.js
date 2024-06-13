@@ -9,7 +9,7 @@ const db  = mysql.createPool({
   connectionLimit : 10,
   host            : 'localhost',
   user            : 'root',
-  password        : 'Guitar9billion@2982',
+  password        : '',
   database        : 'Well_Thunk_DB'
 });
 
