@@ -3,13 +3,23 @@
 footer {
     display: inline-block;
     background-color: $dark-blue;
-    height: 274px;
+    height: 320px;
     width: 100%;
-}
 
-footer div {
-    display: block;
-    width: 100%;
+    div {
+        display: block;
+        width: 100%;
+    }
+
+    p {
+        color: $white;
+        font-family: 'Courier Prime';
+        text-align: center;
+    }
+
+    a {
+        width: 280px;
+    }
 }
 
 .footer-navbar {
@@ -22,24 +32,22 @@ footer div {
     font-size: $p-font;
     padding: 45px 0px 20px 0px;
     height: 44px;
+
+    div{
+        width: 440px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
-.footer-navbar div{
-    width: 440px;
-}
-
-.footer-navbar ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer p{
-    color: $white;
-    font-family: 'Courier Prime';
-    text-align: center;
+.email-div {
+    padding-top: 20px;
 }
 
 .email-div div a{
@@ -62,17 +70,19 @@ footer p{
     font-size: $h5-font;
     font-family: 'Cooper Black';
     color: $yellow;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .copyright-text {
     font-size: 12px;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
-footer a {
-    width: 280px;
+.website-text {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 8px;
 }
 
 .email-div a p:link { text-decoration: none; color: white; }

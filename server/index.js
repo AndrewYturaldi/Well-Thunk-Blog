@@ -14,7 +14,7 @@ const db  = mysql.createPool({
 });
 
  app.get('/', (req, res) => {
-    db.query('SELECT * FROM your_table_name', (error, results, fields) => {
+    db.query('SELECT * FROM Articles', (error, results, fields) => {
         if (error) {
             console.error('Error querying database:', error);
             res.status(500).send('Error querying database');

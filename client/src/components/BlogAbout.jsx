@@ -6,6 +6,7 @@ function BlogAbout(){
     const [nav, setNav] = useState(false);
 
     const openNav = () => {
+        window.scrollTo(0, 0);
         setNav(!nav);
     };
 

@@ -5,6 +5,7 @@ function Navbar(){
     const [nav, setNav] = useState(false);
 
     const openNav = () => {
+        window.scrollTo(0, 0);
         setNav(!nav);
     };
 

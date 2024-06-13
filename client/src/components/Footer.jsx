@@ -8,7 +8,7 @@ function Footer(){
                     <div>
                         <ul>
                             <li>
-                                <a href="/home">Home</a>
+                                <a href="/">Home</a>
                             </li>
                             <li>
                                 <a href="/about">About</a>
@@ -35,6 +35,9 @@ function Footer(){
                 </div>
                 <div>
                     <p className="copyright-text">&copy; Copyright 2024 Well Thunk.</p>
+                </div>
+                <div>
+                    <p className="website-text">website by Andrew Yturaldi</p>
                 </div>
             </footer>
         </>
