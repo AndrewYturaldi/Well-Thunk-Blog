@@ -13,9 +13,10 @@ function Hero(){
         <>
             <div className="homehero">
                 <p className="home-p">
-                    You've Landed in the <br /> Mind-Space of <br /> 
+                    You've <span className="break">Landed</span> <span className="break">in the</span><br /> 
+                    Mind-Space <span className="break">of </span><br />
                     <Link onClick={openNav} to="/About">
-                        <a><span className="box-link">Andrew Yturaldi</span></a>
+                        <a><span className="box-link">Andrew <span className="break">Yturaldi</span></span></a>
                     </Link>
                 </p>
             </div>

@@ -3,14 +3,34 @@
 .thinker {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    min-width: 100%;
     height: 750px;
+
+    @media (min-width: 1550px){
+        height: 950px;
+    }
+
+    @media (max-width: 720px){
+        height: 750px;
+    }
+
+    @media (max-width: 310px){
+        height: 800px;
+    }
+
+    @media (max-width: 294px){
+        height: 875px;
+    }
 }
 
 .thinker-left {
     width: 2800px;
-    background: url(../images/thinker.jpg) no-repeat center;
+    background: url(../images/thinker.jpg) no-repeat 20% center;
     background-size: cover;
+
+    @media (max-width: 980px){
+        display: none;
+    }
 }
 
 .thinker-right {
@@ -22,6 +42,14 @@
     font-family: 'Cooper Black';
     font-size: $h2-font;
     padding: 100px 60px;
+
+    @media (max-width: 720px){
+        padding: 20px 20px;
+    }
+
+    @media (max-width: 381px){
+        font-size: 2.5em;
+    }
 }
 
 .yellow-words {

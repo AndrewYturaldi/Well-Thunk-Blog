@@ -6,11 +6,37 @@ a:hover { text-decoration: none; color: $yellow; }
 a:active { text-decoration: none; color: white; }
 
 .header {
+    display: flex;
+    justify-content: center;
     background-color: $dark-blue;
     font-family: 'Cooper Black';
     font-size: $h2-font;
     height: 80px;
     text-align: center;
+
+    .sidebar {
+        display: none;
+    }
+
+    @media (max-width: 533px){
+        font-size: $h3-font;
+        height: 120px;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        line-height: 1.3em;
+        padding-left: 25px;
+
+        .break {
+            display: inline-block;
+            width: 100%;
+        }
+
+        .sidebar {
+            display: flex;
+            padding-right: 25px;
+        }
+    }
 }
 
 .header a {
@@ -26,6 +52,10 @@ a:active { text-decoration: none; color: white; }
     font-family: 'Courier Prime', Courier, monospace;
     font-size: $p-font;
     height: 44px;
+
+    @media (max-width: 533px){
+        display: none;
+    }
 }
 
 .navbar div{
@@ -37,4 +67,25 @@ a:active { text-decoration: none; color: white; }
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
+}
+
+.mobile-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    background-color: rgba( red($green), green($green), blue($green), 0.85);
+    backdrop-filter: blur(10px);
+    //display: flex;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Courier Prime';
+    font-size: $h4-font;
+    row-gap: 25px;
+    list-style: none;
 }

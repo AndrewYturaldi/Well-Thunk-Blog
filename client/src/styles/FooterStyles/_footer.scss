@@ -3,7 +3,7 @@
 footer {
     display: inline-block;
     background-color: $dark-blue;
-    height: 320px;
+    height: 300px;
     width: 100%;
 
     div {
@@ -20,34 +20,51 @@ footer {
     a {
         width: 280px;
     }
+
+    @media (max-width: 470px) {
+        height: 340px;
+    }
 }
 
 .footer-navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    justify-items: center;
     background-color: $dark-blue;
     color: $white;
     font-family: 'Courier Prime', Courier, monospace;
     font-size: $p-font;
-    padding: 45px 0px 20px 0px;
-    height: 44px;
+    padding: 25px 0px 20px 0px;
+    height: 24px;
 
-    div{
-        width: 440px;
+    @media (max-width: 470px) {
+        padding-bottom: 55px;
+        align-self: center;
+            justify-content: center;
+    }
+    
+    div {
+        width: 420px;
+
+        @media (max-width: 470px) {
+            width: 280px;
+        }
+
     }
 
-    ul{
-        display: flex;
-        flex-direction: row;
+    ul {
+        display: grid;
+        grid-template-columns: 0fr 0fr 0fr 0fr;
         list-style: none;
         align-items: center;
         justify-content: space-between;
-    }
-}
 
-.email-div {
-    padding-top: 20px;
+        @media (max-width: 470px) {
+            font-size: 1.1em;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 15px;
+            justify-items: center;
+        }
+    }
 }
 
 .email-div div a{
@@ -64,6 +81,10 @@ footer {
 
 .email-text{
     font-size: $p-font;
+
+    @media (max-width: 470px) {
+        font-size: 1.2em;
+    }
 }
 
 .logo-text {
@@ -76,7 +97,7 @@ footer {
 .copyright-text {
     font-size: 12px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .website-text {

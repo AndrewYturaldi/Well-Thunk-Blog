@@ -1,30 +1,64 @@
 @use "../global" as *;
 
 .blog-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 65px;
     background-color: $tan;
     height: 750px;
     width: 100%;
+
+    span {
+        background-color: $medium-blue;
+        padding: 15px 25px;
+    }
+
+    @media (max-width: 501px){
+        height: 675px;
+        justify-content: flex-start;
+        padding-top: 60px;
+    }
 }
 
-.blog-about img {
-    position: relative;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -90%);
+.big-image {
+    display: block;
+
+    @media (max-width: 980px) {
+        display: none;
+    }
+}
+
+.med-image {
+    display: none;
+
+    @media (max-width: 980px) {
+        display: block;
+    }
+
+    @media (max-width: 720px) {
+        display: none;
+    }
+}
+
+.small-image {
+    display: none;
+
+    @media (max-width: 720px) {
+        display: block;
+    }
+}
+
+.small-image {
+    height: auto;
 }
 
 .blog-about p {
-    position: relative;
-    top: 76%;
     font-family: 'Courier Prime';
     font-size: 26px;
     color: $tan;
     text-align: center;
-}
-
-.blog-about span {
-    background-color: $medium-blue;
-    padding: 15px 25px;
 }
 
 a .box-link-explore:link { text-decoration: none; color: white; }
