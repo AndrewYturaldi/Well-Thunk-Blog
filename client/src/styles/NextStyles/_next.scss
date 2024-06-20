@@ -18,6 +18,10 @@
         height: 1350px;
     }
 
+    @media (max-width: 334px){
+        height: 1220px;
+    }
+
     .next-content {
         width: 1250px;
         margin: auto;
@@ -36,6 +40,10 @@
 
         @media (max-width: 750px) {
             width: 300px;
+        }
+
+        @media (max-width: 334px){
+            width: 250px;
         }
 
         h2 {
@@ -97,6 +105,11 @@
             width: 300px;
             height: 300px;
             box-shadow: 15px 15px black;
+
+            @media (max-width: 334px){
+                width: 250px;
+                height: 250px;
+            }
         }
     
         a {

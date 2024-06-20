@@ -3,7 +3,7 @@
 footer {
     display: inline-block;
     background-color: $dark-blue;
-    height: 300px;
+    height: 280px;
     width: 100%;
 
     div {
@@ -33,13 +33,13 @@ footer {
     color: $white;
     font-family: 'Courier Prime', Courier, monospace;
     font-size: $p-font;
-    padding: 25px 0px 20px 0px;
+    padding: 25px 0px 30px 0px;
     height: 24px;
 
     @media (max-width: 470px) {
         padding-bottom: 55px;
         align-self: center;
-            justify-content: center;
+        justify-content: center;
     }
     
     div {
@@ -59,7 +59,6 @@ footer {
         justify-content: space-between;
 
         @media (max-width: 470px) {
-            font-size: 1.1em;
             grid-template-columns: 1fr 1fr;
             row-gap: 15px;
             justify-items: center;
@@ -67,24 +66,27 @@ footer {
     }
 }
 
-.email-div div a{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
+.email-div {
+    div a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
 
-.email-div img {
-    padding-right: 8px;
+    img {
+        padding-right: 8px;
+    }
 }
 
 .email-text{
     font-size: $p-font;
 
-    @media (max-width: 470px) {
-        font-size: 1.2em;
+    @media (max-width: 330px) {
+        display: none;
     }
+
 }
 
 .logo-text {
@@ -97,7 +99,7 @@ footer {
 .copyright-text {
     font-size: 12px;
     font-weight: bold;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .website-text {
@@ -110,5 +112,4 @@ footer {
 .email-div a p:visited { text-decoration: none; color: white; }
 .email-div a p:hover { text-decoration: none; color: $yellow; }
 .email-div a p:active { text-decoration: none; color: white; }
-
 .email-div a img:hover { text-decoration: none; color: $yellow; }

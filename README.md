@@ -2,9 +2,9 @@
 # Well-Thunk-Blog
 This is my personal blog website build using React and Sass.
 
-# Screenshots:
+# Screenshots 
 ### Home page:
-![wellThunkHomepage](https://github.com/AndrewYturaldi/Well-Thunk-Blog/assets/131637136/84a12078-a71d-4be5-b3e9-e7c8a298dd91)
+![wellThunkHomepage](https://github.com/AndrewYturaldi/Well-Thunk-Blog/assets/131637136/6a38e4bd-4a4c-4cd0-8683-507b62ba999e)
 
 ### About page:
 ![wellThunkAboutpage](https://github.com/AndrewYturaldi/Well-Thunk-Blog/assets/131637136/e94a8697-c07f-42d3-8eab-57d71674adef)

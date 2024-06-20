@@ -2,38 +2,207 @@
 
 .about-content {
     background-color: $tan;
-    min-height: 708px;
-    padding: 0 122px 122px 120px;
+    min-height: 688px;
+    padding-bottom: 120px;
+    position: relative;
+    margin: auto;
+
+    @media (max-width: 533px) {
+        padding-bottom: 80px;
+    }
+
+    .img-div {
+        float:left;
+        margin-left: -6px;
+        padding-top: 45px;
+        position: relative;
+
+        @media (max-width: 1150px) {
+            width: 320px;
+            height: 280px;
+            padding-top: 30px;
+        }
+
+        @media (max-width: 533px) {
+            width: 100%;
+            height: 325px;
+            position: static;
+            float: none;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto 0 auto;
+            padding: 0;
+        }
+
+        @media (max-width: 300px) {
+            align-items: center;
+            height: 300px;
+        }
+
+        img {
+            padding-right: 40px;
+            padding-bottom: 10px;
+
+            @media (max-width: 1150px) {
+                transform: scale(80%);
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 0;
+            }
+
+            @media (max-width: 533px) {
+                padding: 0px;
+                position: static;
+            }
+
+            @media (max-width: 330px) {
+                transform: scale(70%);
+            }
+
+            @media (max-width: 300px) {
+                transform: scale(65%);
+            }
+        }
+
+        @media (max-width: 1150px) {
+            margin-left: -30px;
+        }
+
+        @media (max-width: 533px) {
+            margin: 0;
+        }
+
+        @media (max-width: 450px) {
+            width: 100%;
+        }
+    }
+
+.about-content-container {
+        margin: auto;
+        width: 1250px;
+        position: relative;
+
+        @media (max-width: 1300px) {
+            width: 1100px;
+        }
+
+        @media (max-width: 1150px) {
+            width: 950px;
+        }
+
+        @media (max-width: 990px) {
+            width: 800px;
+        }
+
+        @media (max-width: 835px) {
+            width: 650px;
+        }
+
+        @media (max-width: 680px) {
+            width: 500px;
+        }
+
+        @media (max-width: 533px) {
+            width: 420px;
+        }
+
+        @media (max-width: 450px) {
+            width: 100%;
+        }
+}
 
     .about-content-flex {
-
-        div:nth-child(1) {
-            float:left;
-                
-                margin-left: -6px;
-                padding-top: 45px;
-                
-            img {
-                
-                margin-right: 40px;
-                margin-bottom: 10px;
-            }
-        } 
     
         div:nth-child(2){
             padding-top: 22px;
 
             h2{
                 padding-left: 335px;
+
+                @media (max-width: 1150px) {
+                    padding-left: 292px;
+                }
+
+                @media (max-width: 835px) {
+                    line-height: 50px;  
+                }
+
+                @media (max-width: 680px) {
+                    line-height: 45px; 
+                }
+
+                @media (max-width: 533px) {
+                    padding-left: 0;
+                    padding-top: 0;
+                }
+
+                @media (max-width: 450px) {
+                    padding-left: 18px;
+                }
+
+                @media (max-width: 330px) {
+                    padding-left: 8px;
+                }
+
+                @media (max-width: 300px) {
+                    padding-left: 0px;
+                }
+
+                .last-name {
+                    @media (max-width: 835px) {
+                        padding-left: 78px;
+                    }
+                    
+                    @media (max-width: 680px) {
+                        padding-top: 30px;
+                        padding-left: 28px;
+                    }
+
+                    @media (max-width: 533px) {
+                        padding: 0;
+                    }
+
+                    @media (max-width: 450px) {
+                        padding-left: 80px;
+                    }
+
+                    @media (max-width: 300px) {
+                        padding-left: 28px;
+                    }
+
+                }
             }
 
             p {
-                padding-bottom: 52px;
+                padding-bottom: 30px;
+
+                @media (max-width: 533px) {
+                    padding-top: 20px;
+                }
+            }
+
+            @media (max-width: 533px) {
+                padding-top: 0;
+            }
+
+            @media (max-width: 450px) {
+                padding: 0 12px;
             }
         }
     }
 
-        
+    .the-blog {
+        padding-top: 20px;
+
+        @media (max-width: 1300px) {
+            padding-top: 0;
+        }
+
+        @media (max-width: 450px) {
+            padding: 0 12px;
+        }
+    }   
 
     h2 {
         font-family: 'Cooper Extra Bold';

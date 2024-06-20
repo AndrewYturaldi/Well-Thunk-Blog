@@ -3,7 +3,7 @@
 a:link { text-decoration: none; color: white; }
 a:visited { text-decoration: none; color: white; }
 a:hover { text-decoration: none; color: $yellow; }
-a:active { text-decoration: none; color: white; }
+a:active { text-decoration: none; color: $yellow; }
 
 .header {
     display: flex;
@@ -14,13 +14,51 @@ a:active { text-decoration: none; color: white; }
     height: 80px;
     text-align: center;
 
+    a {
+        color: $yellow;
+    }
+    
+    div {
+        width: 65px;
+        height: 40px;
+        display: relative;
+
+        img {
+            position: absolute;
+        }
+
+    }
+
     .sidebar {
         display: none;
+
+        @media (max-width: 533px){
+            display: flex;
+        }
+    }
+
+    .sidebarWhite {
+        z-index: 0;
+    }
+
+    .sidebarYellow {
+        z-index: 1;
+    }
+
+    .sidebarYellow {
+        &:hover, &:active {
+            display: none;
+
+            .sidebarWhite {
+                display: relative;
+
+            }
+        }
     }
 
     @media (max-width: 533px){
-        font-size: $h3-font;
-        height: 120px;
+        font-size: $h4-font;
+        height: 100px;
         align-items: center;
         justify-content: space-between;
         text-align: left;
@@ -31,18 +69,8 @@ a:active { text-decoration: none; color: white; }
             display: inline-block;
             width: 100%;
         }
-
-        .sidebar {
-            display: flex;
-            padding-right: 25px;
-        }
     }
 }
-
-.header a {
-    color: $yellow;
-}
-
 .navbar {
     display: flex;
     justify-content: center;
@@ -72,13 +100,12 @@ a:active { text-decoration: none; color: white; }
 .mobile-navbar {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -102%;
     height: 100vh;
     width: 100vw;
     z-index: 10;
-    background-color: rgba( red($green), green($green), blue($green), 0.85);
+    background-color: rgba( red($green), green($green), blue($green), 0.9);
     backdrop-filter: blur(10px);
-    //display: flex;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -88,4 +115,26 @@ a:active { text-decoration: none; color: white; }
     font-size: $h4-font;
     row-gap: 25px;
     list-style: none;
+
+    @media (max-width: 533px){
+        display: flex;
+    }
+}
+
+.open-nav {
+    left: 0;
+}
+
+.xIconWhite, .xIconYellow {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.xIconYellow {
+    z-index: -1;
+}
+
+.xIcon-link-white:hover, .xIcon-link-white:active {
+    display: none;
 }

@@ -2,30 +2,111 @@
 
 .contact-content {
     background-color: $tan;
-    min-height: 875px;
     padding-top: 22px;
+    padding-bottom: 125px;
     font-family: 'Courier Prime';
     color: $medium-blue;
     font-size: $p-font;
 
+    @media (max-width: 800px) {
+        padding-bottom: 100px;
+    }
+
+    @media (max-width: 533px) {
+        padding-bottom: 80px;
+    }
+
     h2 {
         font-family: 'Cooper Extra Bold';
         font-size: $h2-font;
-        text-align: center;
-        padding-bottom: 10px;
+        //text-align: center;
+        text-align: left;
+        line-height: 45px;
+        //padding-bottom: 10px;
+        padding: 26px 0 34px 0;
+
+        @media (max-width: 800px) {
+            padding: 0 0 18px 0;
+            text-align: center;
+        }
     }
 
-    div{
-        width: 600px;
+    .contact-container { 
+        display: flex;
+        justify-content: space-between;
+        //width: 600px;
+        width: 1240px;
         margin: auto;
         line-height: 1.24em;
+        height: 100%;
+
+        @media (max-width: 1300px) {
+            width: 1000px;
+        }
+
+        @media (max-width: 1055px) {
+            width: 750px;
+        }
+
+        @media (max-width: 800px) {
+            flex-direction: column;
+            width: 600px;
+            justify-content: flex-start;
+        }
+
+        @media (max-width: 630px) {
+            width: calc(100% - 24px); /*to account for 12px padding on left & right */
+            margin: 0;
+            padding: 0 12px;
+        }
+    }
+
+    .contact-left {
+        width: 400px;
+
+        @media (max-width: 1300px) {
+            padding-right: 60px;
+        }
+
+        @media (max-width: 800px) {
+            width: 600px;
+            padding-right: 0;
+        }
+
+        @media (max-width: 630px) {
+            width: 100%;
+        }
+    }
+
+    .contact-right {
+        padding-top: 10px;
+        width: 680px;
+        
+        @media (max-width: 1300px) {
+            width: 600px;
+        }
+
+        @media (max-width: 630px) {
+            width: 100%;
+        }
+    }
+
+    .email-box {
+        @media (max-width: 800px) {
+            text-align: center;
+         }
     }
 
     .box-text {
         background-color: $medium-blue;
         color: $white;
         text-decoration: underline;
-        padding: 4px 10px;
+        font-size: $h6-font;
+        padding: 8px 14px;
+
+        @media (max-width: 333px) {
+            font-size: $p-font;
+        }
     }
 
     form {
