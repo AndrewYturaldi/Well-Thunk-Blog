@@ -7,7 +7,7 @@ function AboutContent(){
                 <div className="about-content-container">
                     <div className='about-content-flex'>
                         <div className="img-div">
-                            <img src={AndrewPhoto} width="330" height="340"/>
+                            <img src={AndrewPhoto} width="275" height="283"/>
                         </div>
                         <div>
                             <h2>Andrew <span className="last-name">Yturaldi</span></h2>

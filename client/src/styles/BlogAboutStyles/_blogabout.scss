@@ -7,8 +7,12 @@
     align-items: center;
     row-gap: 65px;
     background-color: $tan;
-    height: 750px;
     width: 100%;
+    padding: 125px 0;
+
+    @media(max-width: 500px) {
+        padding: 64px 0;
+    }
 
     span {
         background-color: $medium-blue;
@@ -16,7 +20,6 @@
     }
 
     @media (max-width: 501px){
-        height: 675px;
         justify-content: flex-start;
         padding-top: 60px;
     }
@@ -46,6 +49,12 @@
     }
 }
 
+.small-container {
+    @media (max-width: 720px) {
+        padding: 0 20px;
+    }
+}
+
 .small-image {
     display: none;
 
@@ -67,6 +76,7 @@
     font-size: 26px;
     color: $tan;
     text-align: center;
+    height: 65px;
 }
 
 a .box-link-explore:link { text-decoration: none; color: white; }

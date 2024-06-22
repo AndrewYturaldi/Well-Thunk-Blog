@@ -17,10 +17,12 @@ function BlogAbout(){
             <div className="blog-about">
                 <img className="big-image" src={aBlogAboutLarge} width="900px" height="320px"/>
                 <img className="med-image" src={aBlogAboutMed} width="650px" height="320px"/>
-                <img className="small-image" src={aBlogAboutSmall} width="400px" height="400px"/>
+                <div className="small-container">
+                    <img className="small-image" src={aBlogAboutSmall} width="400px" height="400px"/>   
+                </div>
                 <p>
                     <Link onClick={openNav} to="/Articles">
-                        <a><span className="box-link-explore">Explore Articles</span></a>
+                        <span className="box-link-explore">Explore Articles</span>
                     </Link>
                 </p>
             </div>

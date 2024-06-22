@@ -19,10 +19,8 @@
     h2 {
         font-family: 'Cooper Extra Bold';
         font-size: $h2-font;
-        //text-align: center;
         text-align: left;
         line-height: 45px;
-        //padding-bottom: 10px;
         padding: 26px 0 34px 0;
 
         @media (max-width: 800px) {
@@ -34,23 +32,14 @@
     .contact-container { 
         display: flex;
         justify-content: space-between;
-        //width: 600px;
-        width: 1240px;
+        max-width: 1240px;
         margin: auto;
+        padding: 0 20px;
         line-height: 1.24em;
         height: 100%;
 
-        @media (max-width: 1300px) {
-            width: 1000px;
-        }
-
-        @media (max-width: 1055px) {
-            width: 750px;
-        }
-
         @media (max-width: 800px) {
             flex-direction: column;
-            width: 600px;
             justify-content: flex-start;
         }
 
@@ -62,14 +51,14 @@
     }
 
     .contact-left {
-        width: 400px;
+        width: 450px;
 
         @media (max-width: 1300px) {
             padding-right: 60px;
         }
 
         @media (max-width: 800px) {
-            width: 600px;
+            width: 100%;
             padding-right: 0;
         }
 
@@ -81,12 +70,12 @@
     .contact-right {
         padding-top: 10px;
         width: 680px;
-        
-        @media (max-width: 1300px) {
-            width: 600px;
+
+        label {
+            padding-bottom: 4px;
         }
 
-        @media (max-width: 630px) {
+        @media(max-width: 800px) {
             width: 100%;
         }
     }
@@ -100,9 +89,14 @@
     .box-text {
         background-color: $medium-blue;
         color: $white;
-        text-decoration: underline;
         font-size: $h6-font;
         padding: 8px 14px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $dark-blue;
+            color: $yellow;
+        }
 
         @media (max-width: 333px) {
             font-size: $p-font;

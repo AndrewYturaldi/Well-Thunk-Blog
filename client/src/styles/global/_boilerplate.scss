@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+//This isn't working... trying to resolve insufficient height for tablet sizes
+// body {
+//   min-height: 100vh;
+// }
+
 a:hover{
     cursor: pointer;
 }

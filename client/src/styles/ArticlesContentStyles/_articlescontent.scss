@@ -2,56 +2,70 @@
 
 .articles-content{
     background-color: $tan;
+    padding-bottom: 125px;
+    padding-top: 32px;
     margin: auto;
 
     .articles-container {
-        width: 1250px;
+        max-width: 1240px;
         margin: auto;
+        padding: 0 20px;
 
-        @media (max-width: 1300px){
-            width: 1100px;
+        @media (max-width: 1075px){
+            width: 80%;
+        }
+
+        @media (max-width: 928px){
+            max-width: 711px;
         }
 
         .article-list {
             padding: 30px 0;
             display: grid;
-            grid-template-columns: repeat(3, 313px);
+            grid-template-columns: repeat(3, 314px);
             justify-content: space-between;
             row-gap: 80px;
-            column-gap: 80px;
+            column-gap: 40px;
 
-            @media (max-width: 1300px){
-                row-gap: 38px;
+            @media (max-width: 1075px){
+                grid-template-columns: repeat(2, 314px);
+                // min-width: 70%;
+                // max-width: 80%;
             }
+            
+            @media (max-width: 928px){
+                width: 100%;
+                margin: 0;
+            }
+
         }
 
         .topics-section {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: center;
-            padding-top: 25px;
-            height: 100%;
+            align-items: start;
+            width: 100%;
 
             .button-grid {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: flex-start;
-                column-gap: 27px;
-                width: 100%;
+                justify-content: end;
+                column-gap: 16px;
+                row-gap: 18px;
+                min-width: 675px;
 
-                @media(max-width: 1300px) {
-                    width: 540px;
-                    row-gap: 14px;
-                    width: 100%
+                @media(max-width: 1075px) {
+                    justify-content: start;
+                    width: 100%;
                 }
             }
 
-            @media (max-width: 1300px){
-                width: 1100px;
+            @media (max-width: 1075px) {
+                flex-direction: column;
+                margin: auto;
             }
            
-
             .topic-button {
                 font-family: 'Courier Prime';
                 font-size: $p-font;
@@ -75,7 +89,8 @@
                 display: flex;
                 flex-direction: row;
                 align-self: flex-start;
-                justify-content: center;
+                justify-content: flex-start;
+                width: 100%;
 
                 .search-button {
                     border: none;
@@ -92,16 +107,17 @@
                     border-right: none;
                     border-radius: 0;
                     padding: 6px 10px;
-                    width: 400px;
+                    margin-bottom: 16px;
+                    width: 100%;
 
                     &:focus ~ .search-button img {
                         box-sizing: border-box;
                         transform: scale(105%);
                     }
+                }
 
-                    @media(max-width: 1300px) {
-                        width: 480px;
-                    }
+                @media(max-width: 1075px) {
+                    width: 100%;
                 }
             }
         }

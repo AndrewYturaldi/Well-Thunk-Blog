@@ -3,8 +3,8 @@
 footer {
     display: inline-block;
     background-color: $dark-blue;
-    height: 280px;
     width: 100%;
+    padding: 24px 0 15px 0;
 
     div {
         display: block;
@@ -20,10 +20,6 @@ footer {
     a {
         width: 280px;
     }
-
-    @media (max-width: 470px) {
-        height: 340px;
-    }
 }
 
 .footer-navbar {
@@ -32,21 +28,19 @@ footer {
     background-color: $dark-blue;
     color: $white;
     font-family: 'Courier Prime', Courier, monospace;
-    font-size: $p-font;
+    font-size: calc($p-font - 2px);
     padding: 25px 0px 30px 0px;
-    height: 24px;
 
     @media (max-width: 470px) {
-        padding-bottom: 55px;
         align-self: center;
         justify-content: center;
     }
     
     div {
-        width: 420px;
+        width: 300px;
 
         @media (max-width: 470px) {
-            width: 280px;
+            width: auto;
         }
 
     }
@@ -61,7 +55,8 @@ footer {
         @media (max-width: 470px) {
             grid-template-columns: 1fr 1fr;
             row-gap: 15px;
-            justify-items: center;
+            column-gap: 20px;
+            justify-items: start;
         }
     }
 }
@@ -81,7 +76,7 @@ footer {
 }
 
 .email-text{
-    font-size: $p-font;
+    font-size: calc($p-font - 2px);
 
     @media (max-width: 330px) {
         display: none;
@@ -90,14 +85,13 @@ footer {
 }
 
 .logo-text {
-    font-size: $h5-font;
+    font-size: calc($h6-font - 2px);
     font-family: 'Cooper Black';
     color: $yellow;
-    margin-top: 30px;
 }
 
 .copyright-text {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     margin-top: 40px;
 }

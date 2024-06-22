@@ -26,6 +26,7 @@
     color: $medium-blue;
     text-align: center;
     margin: auto;
+    padding: 0 12px;
 
 
     .align-left {
@@ -52,12 +53,6 @@
      @media (max-width: 471px){
         top: 10%;
      }
-
-    //  @media (max-width: 570px){
-    //     width: 450px;
-    //     padding-top: 120px;
-    //     font-size: $h3-font;
-    //  }
 }
 
 /*TO-DO: center text/span better?*/
@@ -67,21 +62,45 @@
     color: $tan;
     padding: 0px 0px 8px 0px;
     margin: auto;
-    height: 85px;
-    width: 510px;
+    height: 75px;
+    width: 460px;
     position: relative;
     top: 20px;
 
     @media (max-width: 570px){
-        width: 410px;
+        width: 380px;
         height: 100%;
      }
 
      @media (max-width: 471px){
-        width: 220px;
+        width: 200px;
         height: 100%;
      }
 }
+
+.scroll-up {
+   position: fixed;
+   font-size: $h4-font;
+   color: $tan;
+   background-color: $dark-blue;
+   border: 2px solid $tan;
+   border-radius: 40px;
+   width: 30px;
+   height: 30px;
+   bottom: 30px;
+   right: 20px;
+   z-index: 20;
+   display: none;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   padding: 12px;
+   cursor: pointer;
+ }
+
+ .show-scroll {
+   display: flex;
+ }
 
 a .box-link:link { text-decoration: none; color: white; }
 a .box-link:visited { text-decoration: none; color: $tan; }

@@ -32,7 +32,7 @@ function ContactContent(){
                             <label>Your Email</label>
                             <input placeholder="email@example.com" type="email"/>
                             <label>Message</label>
-                            <textarea placeholder="Enter your message here..." rows="10" required></textarea>
+                            <textarea placeholder="Enter your message here..." rows="8" required></textarea>
                             <button>Submit</button>
                             {/*<Recaptcha sitekey="6LexufwpAAAAAKgcznsNOTbDNV8YcN2coAFY-OkV" secretkey="6LexufwpAAAAAL7rYHYAoqql_D8HbLyho4ChPgKL"/>*/}
                         </form>

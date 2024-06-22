@@ -27,9 +27,9 @@ function Navbar(){
                 <div className="header">
                     <a href="/" className="site-name"><p>Well <span className="break">Thunk.</span></p></a>
                     <div className="sidebar">
-                        <a><img className="sidebarYellow" src={sideBarYellow} width="40" height="40"></img></a>
+                        <a><img className="sidebarYellow" src={sideBarYellow} width="30" height="30"></img></a>
                         <Link onClick={openNavMobile}>
-                            <a><img className="sidebarWhite" src={sideBarWhite} width="40" height="40"></img></a>
+                            <a><img className="sidebarWhite" src={sideBarWhite} width="30" height="30"></img></a>
                         </Link>
                     </div>
                 </div>

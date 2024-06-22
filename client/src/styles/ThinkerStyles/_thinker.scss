@@ -3,30 +3,22 @@
 .thinker {
     display: flex;
     flex-direction: row;
-    min-width: 100%;
+    width: 100%;
     height: 750px;
 
-    @media (min-width: 1550px){
-        height: 950px;
-    }
-
-    @media (max-width: 720px){
-        height: 750px;
-    }
-
-    @media (max-width: 310px){
-        height: 800px;
-    }
-
-    @media (max-width: 294px){
-        height: 875px;
+    @media (max-width: 980px){
+        height: 100%;
     }
 }
 
 .thinker-left {
-    width: 2800px;
+    width: 2400px;
     background: url(../images/thinker.jpg) no-repeat 20% center;
     background-size: cover;
+
+    @media (min-width: 1560px){
+        width: 1800px;
+    }
 
     @media (max-width: 980px){
         display: none;
@@ -44,7 +36,7 @@
     padding: 100px 60px;
 
     @media (max-width: 720px){
-        padding: 20px 20px;
+        padding: 100px 30px;
     }
 
     @media (max-width: 381px){

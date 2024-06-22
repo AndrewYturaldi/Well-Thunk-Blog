@@ -10,8 +10,8 @@ a:active { text-decoration: none; color: $yellow; }
     justify-content: center;
     background-color: $dark-blue;
     font-family: 'Cooper Black';
-    font-size: $h2-font;
-    height: 80px;
+    font-size: $h3-font;
+    height: 62px;
     text-align: center;
 
     a {
@@ -19,8 +19,8 @@ a:active { text-decoration: none; color: $yellow; }
     }
     
     div {
-        width: 65px;
-        height: 40px;
+        width: 50px;
+        height: 30px;
         display: relative;
 
         img {
@@ -57,18 +57,13 @@ a:active { text-decoration: none; color: $yellow; }
     }
 
     @media (max-width: 533px){
-        font-size: $h4-font;
-        height: 100px;
+        font-size: $h5-font;
+        height: 68px;
         align-items: center;
         justify-content: space-between;
         text-align: left;
         line-height: 1.3em;
-        padding-left: 25px;
-
-        .break {
-            display: inline-block;
-            width: 100%;
-        }
+        padding-left: 30px;
     }
 }
 .navbar {
@@ -79,7 +74,7 @@ a:active { text-decoration: none; color: $yellow; }
     color: $white;
     font-family: 'Courier Prime', Courier, monospace;
     font-size: $p-font;
-    height: 44px;
+    height: 38px;
 
     @media (max-width: 533px){
         display: none;
@@ -87,7 +82,7 @@ a:active { text-decoration: none; color: $yellow; }
 }
 
 .navbar div{
-    width: 440px;
+    width: 380px;
 }
 
 .navbar ul {
