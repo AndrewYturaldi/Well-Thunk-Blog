@@ -33,8 +33,8 @@ function Hero(){
         <>
             <div className="homehero">
                 <p className="home-p">
-                    You've <span className="break">Landed</span> <span className="break">in the</span><br /> 
-                    Mind-Space <span className="break">of </span><br />
+                    You've Landed <span className="group">in the</span><br /> 
+                    Mind-Space of<br />
                     <Link onClick={openNav} to="/About">
                         <a><span className="box-link">Andrew <span className="break">Yturaldi</span></span></a>
                     </Link>

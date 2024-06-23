@@ -14,7 +14,7 @@ function ContactContent(){
             <div className="contact-content">
                 <div className="contact-container">
                     <div className="contact-left">
-                    <h2>I'd Love to Hear From You!</h2>
+                    <h2>I'd Love to Hear <br/>From You!</h2>
                         <p>
                             Questions? Comments? Concerns? I&#39;m here for all of it! I will do my best 
                             to respond within a week. I&#39;m not a social media kind of guy, but you can 

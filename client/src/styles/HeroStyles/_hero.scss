@@ -75,6 +75,7 @@
      @media (max-width: 471px){
         width: 200px;
         height: 100%;
+        border-radius: 16px;
      }
 }
 
@@ -100,6 +101,10 @@
 
  .show-scroll {
    display: flex;
+ }
+
+ .group {
+   white-space: nowrap; /* Prevent the span content from wrapping */
  }
 
 a .box-link:link { text-decoration: none; color: white; }

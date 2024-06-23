@@ -6,17 +6,21 @@
     padding-top: 32px;
     margin: auto;
 
+    @media (max-width: 500px) {
+        padding-bottom: 60px;
+    }
+
     .articles-container {
         max-width: 1240px;
         margin: auto;
         padding: 0 20px;
 
         @media (max-width: 1075px){
-            width: 80%;
+            max-width: 800px;
         }
 
-        @media (max-width: 928px){
-            max-width: 711px;
+        @media (max-width: 720px){
+            max-width: 314px;
         }
 
         .article-list {
@@ -29,13 +33,19 @@
 
             @media (max-width: 1075px){
                 grid-template-columns: repeat(2, 314px);
-                // min-width: 70%;
-                // max-width: 80%;
             }
             
             @media (max-width: 928px){
                 width: 100%;
                 margin: 0;
+            }
+
+            @media (max-width: 720px){
+                grid-template-columns: repeat(1, 314px);
+            }
+
+            @media (max-width: 500px) {
+                row-gap: 60px;
             }
 
         }
@@ -57,7 +67,11 @@
 
                 @media(max-width: 1075px) {
                     justify-content: start;
-                    width: 100%;
+                    min-width: 100%;
+                }
+
+                @media (max-width: 720px){
+                    min-width: 314px;
                 }
             }
 
