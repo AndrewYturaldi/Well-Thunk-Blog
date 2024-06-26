@@ -69,6 +69,7 @@ a:visited {
 a:hover {
   text-decoration: none;
   color: #ffd000;
+  transition: color 0.8s ease;
 }
 
 a:active {
@@ -324,6 +325,8 @@ a .box-link:hover {
   text-decoration: none;
   color: #ffd000;
   background-color: #02124a;
+  transition: color 0.75s ease;
+  transition: background-color 0.75s ease;
 }
 
 a .box-link:active {
@@ -429,8 +432,10 @@ a .box-link-explore:visited {
 
 a .box-link-explore:hover {
   text-decoration: none;
-  color: v #ffd000;
+  color: #ffd000;
   background-color: #02124a;
+  transition: color 0.75s ease;
+  transition: background-color 0.75s ease;
 }
 
 a .box-link-explore:active {
@@ -790,7 +795,7 @@ a .box-link-explore:active {
 
 .contact-content {
   background-color: #f2ecd9;
-  padding-top: 22px;
+  padding-top: 14px;
   padding-bottom: 125px;
   font-family: "Courier Prime";
   color: #1b4064;
@@ -931,13 +936,26 @@ a .box-link-explore:active {
 .articles-content {
   background-color: #f2ecd9;
   padding-bottom: 125px;
-  padding-top: 32px;
+  padding-top: 22px;
   margin: auto;
 }
 @media (max-width: 500px) {
   .articles-content {
     padding-bottom: 60px;
   }
+}
+.articles-content .title {
+  font-family: "Cooper Extra Bold";
+  font-size: 40px;
+  color: #1b4064;
+  text-align: center;
+}
+.articles-content .subtitle {
+  font-family: "Courier Prime";
+  font-size: 16px;
+  color: #1b4064;
+  text-align: center;
+  padding-bottom: 24px;
 }
 .articles-content .articles-container {
   max-width: 1240px;
@@ -1080,6 +1098,7 @@ a .box-link-explore:active {
 
 .section {
   color: #842b2b;
+  margin-top: 8px;
 }
 
 h4 {

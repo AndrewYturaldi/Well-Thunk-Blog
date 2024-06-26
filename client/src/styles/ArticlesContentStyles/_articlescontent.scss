@@ -3,11 +3,28 @@
 .articles-content{
     background-color: $tan;
     padding-bottom: 125px;
-    padding-top: 32px;
+    padding-top: 22px;
     margin: auto;
+
 
     @media (max-width: 500px) {
         padding-bottom: 60px;
+    }
+
+    .title {
+        font-family: "Cooper Extra Bold";
+        font-size: $h2-font;
+        color: $medium-blue;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-family: "Courier Prime";
+        font-size: $p-font;
+        color: $medium-blue;
+        text-align: center;
+        padding-bottom: 24px;
+        
     }
 
     .articles-container {

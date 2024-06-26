@@ -7,6 +7,8 @@ function ArticlesContent(){
         <>
             <div className="articles-content">
                 <div className="articles-container">
+                <h2 className="title">The Blog</h2>
+                <h4 className="subtitle">Check Out the Articles Below!</h4>
                     <div className="topics-section">
                         <form>
                             <input placeholder="Search Articles" type="text"></input>

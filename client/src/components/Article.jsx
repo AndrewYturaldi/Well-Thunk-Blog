@@ -1,10 +1,9 @@
-function Article({ section, src, alt, articleTitle, date }) {
+function ArticleCard({ section, src, alt, articleTitle, date }) {
     return (
         <>
             <div className="article">
-                
-                <p className="section">{section}</p>
                 <img className="article-img" src={src} alt={alt}/>
+                <p className="section">{section}</p>
                 <h4>{articleTitle}</h4>
                 <p className="date">{date}</p>
             </div>
@@ -12,4 +11,4 @@ function Article({ section, src, alt, articleTitle, date }) {
     );
 }
 
-export default Article;
+export default ArticleCard;

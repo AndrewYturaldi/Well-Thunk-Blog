@@ -81,7 +81,13 @@
 
 a .box-link-explore:link { text-decoration: none; color: white; }
 a .box-link-explore:visited { text-decoration: none; color: $tan; }
-a .box-link-explore:hover { text-decoration: none; color: v$yellow; background-color: $dark-blue; }
+a .box-link-explore:hover { 
+    text-decoration: none; 
+    color: $yellow; 
+    background-color: $dark-blue; 
+    transition: color 0.75s ease; 
+    transition: background-color 0.75s ease; 
+}
 a .box-link-explore:active { text-decoration: none; color: $tan; }
 
 
