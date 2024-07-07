@@ -1,0 +1,41 @@
+@use '../global' as *;
+
+.article-page {
+    background-color: $tan;
+    padding-top: 32px;
+    padding-bottom: 125px;
+}
+
+.article-page-container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.article-page-section {
+    font-family: "courier prime";
+    font-size: $p-font;
+    color: $maroonish;
+}
+
+.article-page-title {
+    font-family: "Cooper Extra Bold";
+    font-size: $h2-font;
+    color: $medium-blue;
+}
+
+.article-page-info {
+    font-family: "courier prime";
+    font-size: $p-font;
+    color: $medium-blue;
+}
+
+.article-page-img {
+    border: 2px solid #000;
+}
+
+.article-content p {
+    font-family: "courier prime";
+    font-size: $p-font;
+    color: $medium-blue;
+}
