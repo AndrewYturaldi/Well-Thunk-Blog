@@ -31,7 +31,7 @@ function AboutContent(){
                             I have had a growing desire to express the many thoughts I think in the form of a blog site, and as a student web developer, 
                             I figured I might as well build one myself! The title, <span className="thunk-box">Well Thunk</span>,was an alternate way of saying “well thought” which I thought 
                             sounded good for the blog name. This blog serves as a space where I can share thoughts, ideas, and anything interesting I find or 
-                            learn that I want other people to know about! It is my hope that you, the reader, gain as much joy out of each post as I do!
+                            learn that I want other people to know about. It is my hope that you, the reader, gain as much joy out of each post as I do!
                         </p>
                     </div>
                 </div>

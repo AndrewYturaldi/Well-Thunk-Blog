@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import aBlogAboutLarge from '../images/aBlogAboutLarge.jpg';
+import aBlogAboutLarge from '../images/aBlogAboutLarge.png';
 import aBlogAboutMed from '../images/aBlogAboutMed.jpg';
 import aBlogAboutSmall from '../images/aBlogAboutSmall.jpg';
 

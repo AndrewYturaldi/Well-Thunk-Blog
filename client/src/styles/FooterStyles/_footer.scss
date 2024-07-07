@@ -88,18 +88,19 @@ footer {
     font-size: calc($h6-font - 2px);
     font-family: 'Cooper Black';
     color: $yellow;
+    margin-top: 20px;
 }
 
 .copyright-text {
     font-size: 10px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .website-text {
     font-size: 10px;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 6px;
 }
 
 .email-div a p:link { text-decoration: none; color: white; }

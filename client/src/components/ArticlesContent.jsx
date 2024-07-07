@@ -2,6 +2,7 @@ import searchIcon from '../images/searchIcon.jpg';
 import Article from '../components/Article';
 import blogData from '../blogData';
 
+
 function ArticlesContent(){
     return (
         <>
@@ -26,14 +27,14 @@ function ArticlesContent(){
                     </div>
                     <div className="article-list">
                     {blogData.map((post) => {
-                                    return (
+                            return (          
                                 <Article
-                                    key={post.id}
-                                    section={post.section}
-                                    src={post.coverPhoto}
-                                    alt={`${post.title} Cover`}
-                                    articleTitle={post.title}
-                                    date={post.date}
+                                id={post.id}
+                                section={post.section}
+                                src={post.coverPhoto}
+                                alt={`${post.title} Cover`}
+                                articleTitle={post.title}
+                                date={post.date}
                                 />
                             );
                         })}

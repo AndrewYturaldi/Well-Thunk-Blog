@@ -1,6 +1,11 @@
 @use '../global' as *;
 
+.article-link:link { text-decoration: none; color: #000; }
+.article-link:visited { text-decoration: none; color: #000; }
+.article-link:hover { text-decoration: none; color: #000; }
+.article-link:active { text-decoration: none; color: #000; }
 .article {
+
     width: 314px;
 }
 

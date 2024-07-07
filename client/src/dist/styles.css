@@ -1083,6 +1083,26 @@ a .box-link-explore:active {
   }
 }
 
+.article-link:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.article-link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.article-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.article-link:active {
+  text-decoration: none;
+  color: #000;
+}
+
 .article {
   width: 314px;
 }
@@ -1119,6 +1139,46 @@ h4 {
     max-width: 100%;
     height: auto;
   }
+}
+
+.article-page {
+  background-color: #f2ecd9;
+  padding-top: 32px;
+  padding-bottom: 125px;
+}
+
+.article-page-container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.article-page-section {
+  font-family: "courier prime";
+  font-size: 16px;
+  color: #842b2b;
+}
+
+.article-page-title {
+  font-family: "Cooper Extra Bold";
+  font-size: 40px;
+  color: #1b4064;
+}
+
+.article-page-info {
+  font-family: "courier prime";
+  font-size: 16px;
+  color: #1b4064;
+}
+
+.article-page-img {
+  border: 2px solid #000;
+}
+
+.article-content p {
+  font-family: "courier prime";
+  font-size: 16px;
+  color: #1b4064;
 }
 
 footer {
@@ -1203,18 +1263,19 @@ footer a {
   font-size: 18px;
   font-family: "Cooper Black";
   color: #ffd000;
+  margin-top: 20px;
 }
 
 .copyright-text {
   font-size: 10px;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .website-text {
   font-size: 10px;
   font-weight: bold;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .email-div a p:link {

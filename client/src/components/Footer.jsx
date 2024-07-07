@@ -4,9 +4,6 @@ function Footer(){
     return (
         <>
             <footer>
-                <div>
-                    <p className="logo-text">Well Thunk.</p>
-                </div>
                 <div className="footer-navbar">
                     <div>
                         <ul>
@@ -32,6 +29,9 @@ function Footer(){
                             <p className="email-text">wellthunk@yturaldi.com</p>
                         </a>
                     </div>
+                </div>
+                <div>
+                    <p className="logo-text">Well Thunk.</p>
                 </div>
                 <div>
                     <p className="copyright-text">&copy; Copyright 2024 Well Thunk.</p>
