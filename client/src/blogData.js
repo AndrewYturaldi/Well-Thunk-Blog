@@ -6,7 +6,7 @@ import monorailCrop from "./images/ArticleImages/CoverPhotos/Crop/monorailCrop.j
 import monorailFull from "./images/ArticleImages/CoverPhotos/Full/monorailFull.jpg";
 import graveCrop from "./images/ArticleImages/CoverPhotos/Crop/gravesiteCrop.jpg";
 import graveFull from "./images/ArticleImages/CoverPhotos/Full/gravesiteFull.jpg";
-import breakfastCrop from "./images/ArticleImages/CoverPhotos/Crop/breakfastCrop.jpg"
+import breakfastCrop from "./images/ArticleImages/CoverPhotos/Crop/breakfastCrop.jpg";
 import breakfastFull from "./images/ArticleImages/CoverPhotos/Full/breakfastFull.jpg";
 
 
