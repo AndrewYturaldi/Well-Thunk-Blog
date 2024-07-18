@@ -2,10 +2,13 @@
 
 .articles-content{
     background-color: $tan;
-    padding-bottom: 125px;
-    padding-top: 22px;
+    padding-bottom: 100px;
+    padding-top: 60px;
     margin: auto;
 
+    @media (max-width: 533px) {
+        padding-top: 30px;
+    }
 
     @media (max-width: 500px) {
         padding-bottom: 60px;
@@ -30,26 +33,26 @@
     .articles-container {
         max-width: 1240px;
         margin: auto;
-        padding: 0 20px;
+        padding: 0 12px;
 
         @media (max-width: 1075px){
             max-width: 800px;
         }
 
         @media (max-width: 720px){
-            max-width: 314px;
+            max-width: 330px;
         }
 
         .article-list {
             padding: 30px 0;
             display: grid;
-            grid-template-columns: repeat(3, 314px);
+            grid-template-columns: repeat(3, 325px);
             justify-content: space-between;
             row-gap: 80px;
             column-gap: 40px;
 
             @media (max-width: 1075px){
-                grid-template-columns: repeat(2, 314px);
+                grid-template-columns: repeat(2, 325px);
             }
             
             @media (max-width: 928px){
@@ -58,7 +61,7 @@
             }
 
             @media (max-width: 720px){
-                grid-template-columns: repeat(1, 314px);
+                grid-template-columns: repeat(1, 325px);
             }
 
             @media (max-width: 500px) {
@@ -89,6 +92,11 @@
 
                 @media (max-width: 720px){
                     min-width: 314px;
+                }
+
+                @media(max-width: 333px) {
+                    min-width: 0;
+                    width: 280px;
                 }
             }
 

@@ -1,0 +1,58 @@
+@use '../global' as *;
+
+.checkout-articles {
+    background-color: $green;
+}
+
+.checkout-articles-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 20px;
+    font-family: 'Cooper Extra Bold';
+    font-size: calc($h4-font + 2px);
+    color: $tan;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+
+    p {
+        max-width: 1000px;
+        padding-right: 30px;
+
+        .stay-together {
+            white-space: nowrap;
+        }
+
+        @media(max-width: 700px) {
+            padding: 0;
+        }
+    }
+
+    img {
+        padding-top: 10px;
+    }
+
+    @media(max-width: 700px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.checkout-articles-link:link {
+    color: $tan;
+}
+
+.checkout-articles-link:visited {
+    color: $tan;
+}
+
+.checkout-articles-link:hover {
+    color: $tan;
+}
+
+.checkout-articles-link:active {
+    color: $tan;
+}
+

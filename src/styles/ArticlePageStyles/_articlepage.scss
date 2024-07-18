@@ -2,7 +2,7 @@
 
 .article-page {
     background-color: $tan;
-    padding-top: 32px;
+    padding-top: 82px;
     padding-bottom: 125px;
 }
 
@@ -28,10 +28,12 @@
     font-family: "courier prime";
     font-size: $p-font;
     color: $medium-blue;
+    margin-top: 12px;
 }
 
 .article-page-img {
     border: 2px solid #000;
+    margin-top: 8px;
 }
 
 .article-content p {

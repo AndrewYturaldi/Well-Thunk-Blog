@@ -2,17 +2,19 @@
 
 .contact-content {
     background-color: $tan;
-    padding-top: 14px;
+    padding-top: 44px;
     padding-bottom: 125px;
     font-family: 'Courier Prime';
     color: $medium-blue;
     font-size: $p-font;
 
     @media (max-width: 800px) {
+        padding-top: 74px;
         padding-bottom: 100px;
     }
 
     @media (max-width: 533px) {
+        padding-top: 40px;
         padding-bottom: 80px;
     }
 
@@ -82,6 +84,7 @@
         }
 
         @media(max-width: 800px) {
+            padding-top: 45px;
             width: 100%;
         }
     }
