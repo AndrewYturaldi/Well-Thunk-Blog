@@ -20,6 +20,8 @@ import piCrop from "./images/ArticleImages/CoverPhotos/Crop/piCrop.jpg";
 import piFull from "./images/ArticleImages/CoverPhotos/Full/piFull.jpg";
 import volcanoesCrop from "./images/ArticleImages/CoverPhotos/Crop/volcanoesCrop.jpg";
 import volcanoesFull from "./images/ArticleImages/CoverPhotos/Full/volcanoesFull.jpg";
+import spotifyCrop from "./images/ArticleImages/CoverPhotos/Crop/spotifyCrop.jpg";
+import spotifyFull from "./images/ArticleImages/CoverPhotos/Full/spotifyFull.jpg";
 
 
 const blogData = [
@@ -197,6 +199,22 @@ const blogData = [
                 "Morbi tristique senectus et netus et malesuada fames ac. Semper eget duis at tellus at urna condimentum mattis. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Fringilla ut morbi tincidunt augue. Feugiat nisl pretium fusce id velit. Volutpat diam ut venenatis tellus in metus vulputate eu. Viverra aliquet eget sit amet tellus. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Facilisis sed odio morbi quis commodo odio. Laoreet non curabitur gravida arcu. In nibh mauris cursus mattis molestie a.</p>",
         coverPhoto: volcanoesCrop,
         coverPhotoFull: volcanoesFull,
+        photos: []
+      },
+      {
+        id: 12,
+        title: "My Spotify Playlists",
+        author: "Andrew Yturaldi",
+        date: "July 19, 2024",
+        section: "Music",
+        content: "<p class='first-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non nisi est. Nunc id cursus metus aliquam eleifend mi in nulla. Elementum integer enim neque volutpat ac tincidunt. Donec et odio pellentesque diam volutpat commodo sed egestas. Bibendum enim facilisis gravida neque convallis a cras semper. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Massa id neque aliquam vestibulum morbi. In iaculis nunc sed augue lacus viverra vitae congue. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie. <br><br><br> Purus semper eget duis at tellus at urna condimentum. Tristique et egestas quis ipsum suspendisse ultrices gravida. Risus quis varius quam quisque id diam. Id consectetur purus ut faucibus pulvinar. Libero nunc consequat interdum varius sit amet. Egestas dui id ornare arcu odio ut" +
+                "Ultrices eros in cursus turpis massa tincidunt dui. Porta lorem mollis aliquam ut porttitor leo a diam. At tellus at urna condimentum mattis pellentesque id nibh tortor. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Elementum integer enim neque volutpat ac tincidunt. Id aliquet risus feugiat in. Nibh tortor id aliquet lectus proin. Morbi non arcu risus quis varius quam quisque id diam. <br><br><br> Massa placerat duis ultricies lacus sed turpis tincidunt. Eget nulla facilisi etiam dignissim. Non sodales neque sodales ut etiam sit. Scelerisque eu ultrices vitae auctor eu. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. Amet risus nullam eget felis eget. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Consequat mauris nunc congue nisi vitae suscipit. Facilisis mauris sit amet massa vitae tortor condimentum. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse." +
+                "Malesuada nunc vel risus commodo viverra maecenas accumsan. Odio aenean sed adipiscing diam donec adipiscing tristique. Nec feugiat nisl pretium fusce. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Facilisis volutpat est velit egestas dui id ornare arcu. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Pellentesque sit amet porttitor eget dolor morbi non arcu. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Aenean sed adipiscing diam donec adipiscing tristique risus. Consequat mauris nunc congue nisi vitae suscipit. <br><br><br> Sagittis vitae et leo duis ut diam. Tellus molestie nunc non blandit. In iaculis nunc sed augue lacus viverra vitae." +
+                "Habitant morbi tristique senectus et netus et malesuada. Feugiat scelerisque varius morbi enim nunc faucibus a. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Ut diam quam nulla porttitor massa. Vel fringilla est ullamcorper eget nulla. Adipiscing elit ut aliquam purus sit amet. Iaculis nunc sed augue lacus viverra vitae congue eu consequat. Diam quis enim lobortis scelerisque fermentum dui faucibus in. Vitae purus faucibus ornare suspendisse. Nunc eget lorem dolor sed viverra ipsum nunc. Mattis nunc sed blandit libero volutpat sed cras. Rhoncus aenean vel elit scelerisque." +
+                "Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Praesent tristique magna sit amet purus gravida quis. Senectus et netus et malesuada fames ac turpis. Malesuada proin libero nunc consequat interdum varius sit amet. Quam pellentesque nec nam aliquam sem et tortor consequat. Nullam eget felis eget nunc lobortis mattis aliquam. Morbi tempus iaculis urna id volutpat lacus laoreet. Mi bibendum neque egestas congue. Et netus et malesuada fames ac turpis egestas integer eget. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. <br><br><br> Dolor morbi non arcu risus quis varius quam quisque id. Elit pellentesque habitant morbi tristique senectus et netus et. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae." +
+                "Morbi tristique senectus et netus et malesuada fames ac. Semper eget duis at tellus at urna condimentum mattis. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Fringilla ut morbi tincidunt augue. Feugiat nisl pretium fusce id velit. Volutpat diam ut venenatis tellus in metus vulputate eu. Viverra aliquet eget sit amet tellus. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Facilisis sed odio morbi quis commodo odio. Laoreet non curabitur gravida arcu. In nibh mauris cursus mattis molestie a.</p>",
+        coverPhoto: spotifyCrop,
+        coverPhotoFull: spotifyFull,
         photos: []
       }
     // Add more blog posts here
