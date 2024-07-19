@@ -10,7 +10,7 @@ function ArticlesContent(){
                 <div className="articles-container">
                 <h2 className="title">The Blog</h2>
                 <h4 className="subtitle">Check Out the Articles Below!</h4>
-                    <div className="topics-section">
+                    {/* <div className="topics-section">
                         <form>
                             <input placeholder="Search Articles" type="text"></input>
                             <button className="search-button"><img src={searchIcon} width="42" height="34"/></button>
@@ -24,7 +24,7 @@ function ArticlesContent(){
                             <button className="topic-button">Other</button>
                             <button className="topic-button">Random</button>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="article-list">
                     {blogData.map((post) => {
                             return (          

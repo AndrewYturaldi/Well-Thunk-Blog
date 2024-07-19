@@ -24,7 +24,7 @@
 
     .subtitle {
         font-family: "Courier Prime";
-        font-size: $p-font;
+        font-size: calc($h6-font - 2px);
         color: $medium-blue;
         text-align: center;
         padding-bottom: 24px;
