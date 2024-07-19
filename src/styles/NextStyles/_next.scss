@@ -5,6 +5,7 @@
     text-align: center;
     margin: auto;
     padding-bottom: 125px;
+    padding-top: 75px;
 
     .next-content {
         width: 1250px;
@@ -34,7 +35,6 @@
             font-family: 'Cooper Extra Bold';
             color: $medium-blue;
             font-size: $h2-font;
-            padding-top: 45px;
 
             @media (max-width: 500px){
                 line-height: 1.2em;
