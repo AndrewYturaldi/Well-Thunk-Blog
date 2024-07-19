@@ -4,6 +4,7 @@
     background-color: $tan;
     padding-bottom: 100px;
     padding-top: 60px;
+    width: 100%;
     margin: auto;
 
     @media (max-width: 533px) {
@@ -46,22 +47,22 @@
         .article-list {
             padding: 30px 0;
             display: grid;
-            grid-template-columns: repeat(3, 325px);
+            grid-template-columns: repeat(3, 332px);
             justify-content: space-between;
             row-gap: 80px;
-            column-gap: 40px;
+            box-sizing: border-box;
+            margin: 0 auto;
 
             @media (max-width: 1075px){
-                grid-template-columns: repeat(2, 325px);
+                grid-template-columns: repeat(2, 332px);
             }
             
             @media (max-width: 928px){
-                width: 100%;
-                margin: 0;
+                max-width: 100%;
             }
 
             @media (max-width: 720px){
-                grid-template-columns: repeat(1, 325px);
+                grid-template-columns: repeat(1, 332px);
             }
 
             @media (max-width: 500px) {

@@ -4,17 +4,28 @@
     background-color: $tan;
     padding-top: 82px;
     padding-bottom: 125px;
+
+    @media (max-width: 800px) {
+        padding-top: 74px;
+        padding-bottom: 100px;
+    }
+
+    @media (max-width: 533px) {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
 }
 
 .article-page-container {
     max-width: 1240px;
-    padding: 0 20px;
+    padding: 0 12px;
     margin: auto;
 }
 
 .article-page-section {
     font-family: "courier prime";
     font-size: $p-font;
+    font-weight: bold;
     color: $maroonish;
 }
 
@@ -22,22 +33,35 @@
     font-family: "Cooper Extra Bold";
     font-size: $h2-font;
     color: $medium-blue;
+    line-height: 45px;
+    margin-top: 10px;
 }
 
 .article-page-info {
     font-family: "courier prime";
     font-size: $p-font;
     color: $medium-blue;
-    margin-top: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.stay-together {
+    white-space: nowrap;
 }
 
 .article-page-img {
     border: 2px solid #000;
     margin-top: 8px;
+    max-width: 100%;
+    height: auto;
 }
 
 .article-content p {
     font-family: "courier prime";
     font-size: $p-font;
     color: $medium-blue;
+}
+
+.first-paragraph {
+    padding-top: 32px;
 }

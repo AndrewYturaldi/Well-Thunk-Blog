@@ -73,7 +73,7 @@ a:active { text-decoration: none; color: $yellow; }
     background-color: $green;
     color: $white;
     font-family: 'Courier Prime', Courier, monospace;
-    font-size: $p-font;
+    font-size: calc($h6-font - 2px);
     height: 38px;
 
     @media (max-width: 533px){
@@ -82,7 +82,7 @@ a:active { text-decoration: none; color: $yellow; }
 }
 
 .navbar div{
-    width: 380px;
+    width: 400px;
 }
 
 .navbar ul {
