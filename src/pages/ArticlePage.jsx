@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import CheckoutArticles from "../components/CheckoutArticles"
 import { useParams } from "react-router-dom";
 import blogData from '../blogData';
 import DOMPurify from 'dompurify';
@@ -33,6 +34,7 @@ function ArticlePage() {
                     {/* Additional content and components for the ArticlePage */}
                 </div>
             </div>
+            <CheckoutArticles />
             <Footer />
         </>
     );
