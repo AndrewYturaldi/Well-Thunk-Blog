@@ -50,8 +50,8 @@
             grid-template-columns: repeat(3, 332px);
             justify-content: space-between;
             row-gap: 80px;
-            box-sizing: border-box;
             margin: 0 auto;
+
 
             @media (max-width: 1075px){
                 grid-template-columns: repeat(2, 332px);
@@ -67,6 +67,10 @@
 
             @media (max-width: 500px) {
                 row-gap: 60px;
+            }
+
+            @media (max-width: 370px) {
+                grid-template-columns: repeat(1, 1fr);
             }
 
         }
@@ -97,7 +101,7 @@
 
                 @media(max-width: 333px) {
                     min-width: 0;
-                    width: 280px;
+                    max-width: 280px;
                 }
             }
 

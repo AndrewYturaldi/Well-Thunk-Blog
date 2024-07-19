@@ -502,6 +502,7 @@ a .box-link-explore:active {
   text-align: center;
   margin: auto;
   padding-bottom: 125px;
+  padding-top: 75px;
 }
 .next-div .next-content {
   width: 1250px;
@@ -536,7 +537,6 @@ a .box-link-explore:active {
   font-family: "Cooper Extra Bold";
   color: #1b4064;
   font-size: 40px;
-  padding-top: 45px;
 }
 @media (max-width: 500px) {
   .next-div .next-content h2 {
@@ -1047,7 +1047,6 @@ a .box-link-explore:active {
   grid-template-columns: repeat(3, 332px);
   justify-content: space-between;
   row-gap: 80px;
-  box-sizing: border-box;
   margin: 0 auto;
 }
 @media (max-width: 1075px) {
@@ -1068,6 +1067,11 @@ a .box-link-explore:active {
 @media (max-width: 500px) {
   .articles-content .articles-container .article-list {
     row-gap: 60px;
+  }
+}
+@media (max-width: 370px) {
+  .articles-content .articles-container .article-list {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .articles-content .articles-container .topics-section {
@@ -1099,7 +1103,7 @@ a .box-link-explore:active {
 @media (max-width: 333px) {
   .articles-content .articles-container .topics-section .button-grid {
     min-width: 0;
-    width: 280px;
+    max-width: 280px;
   }
 }
 @media (max-width: 1075px) {
@@ -1178,18 +1182,6 @@ a .box-link-explore:active {
   color: #000;
 }
 
-.article {
-  box-sizing: border-box;
-  max-width: 100%;
-}
-@media (max-width: 345px) {
-  .article {
-    max-width: 90vw;
-    height: auto;
-    margin: 0 auto;
-  }
-}
-
 .section, .date {
   font-family: "Courier Prime";
   font-size: 16px;
@@ -1212,17 +1204,12 @@ h4 {
 }
 
 .article-img {
-  max-width: 328px;
+  box-sizing: border-box;
+  max-width: 100%;
   height: auto;
   border: 2px solid black;
   margin-top: 10px;
   display: block;
-}
-@media (max-width: 345px) {
-  .article-img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 .article-page {
@@ -1277,6 +1264,7 @@ h4 {
 }
 
 .article-page-img {
+  box-sizing: border-box;
   border: 2px solid #000;
   margin-top: 8px;
   max-width: 100%;
