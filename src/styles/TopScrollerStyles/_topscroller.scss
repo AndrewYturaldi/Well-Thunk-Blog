@@ -1,0 +1,37 @@
+@use "../global" as *;
+
+.scroll-up {
+    position: fixed;
+    font-size: $h4-font;
+    color: $tan;
+    background-color: $dark-blue;
+    border: 2px solid $tan;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20;
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+    animation: fadeInBtn ease 0.7s;
+  }
+ 
+  .show-scroll {
+    display: flex;
+  }
+  
+  @keyframes fadeInBtn {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
