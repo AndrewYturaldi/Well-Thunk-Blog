@@ -8,9 +8,8 @@ import graveCrop from "./images/ArticleImages/CoverPhotos/Crop/gravesiteCrop.jpg
 import graveFull from "./images/ArticleImages/CoverPhotos/Full/gravesiteFull.jpg";
 import breakfastCrop from "./images/ArticleImages/CoverPhotos/Crop/breakfastCrop.jpg";
 import breakfastFull from "./images/ArticleImages/CoverPhotos/Full/breakfastFull.jpg";
-import blueCrop from "./images/ArticleImages/CoverPhotos/Crop/blueCrop.jpg";
-// import blueFull from "./images/ArticleImages/CoverPhotos/Full/blueFull.jpg";
-import blueOther from "./images/ArticleImages/CoverPhotos/Full/blueOther.jpg";
+import blueCrop from "./images/ArticleImages/CoverPhotos/Crop/blueImageCrop.jpg";
+import blueFull from "./images/ArticleImages/CoverPhotos/Full/blueImageFull.jpg";
 import everywhereAtCrop from "./images/ArticleImages/CoverPhotos/Crop/everywhereAtTheEndOfTimeCrop.jpg";
 import everywhereAtFull from "./images/ArticleImages/CoverPhotos/Full/everywhereAtTheEndOfTimeFull.jpg";
 import monksMoundCrop from "./images/ArticleImages/CoverPhotos/Crop/monksMoundCrop.jpg";
@@ -119,7 +118,7 @@ const blogData = [
                 "Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Praesent tristique magna sit amet purus gravida quis. Senectus et netus et malesuada fames ac turpis. Malesuada proin libero nunc consequat interdum varius sit amet. Quam pellentesque nec nam aliquam sem et tortor consequat. Nullam eget felis eget nunc lobortis mattis aliquam. Morbi tempus iaculis urna id volutpat lacus laoreet. Mi bibendum neque egestas congue. Et netus et malesuada fames ac turpis egestas integer eget. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. <br><br><br> Dolor morbi non arcu risus quis varius quam quisque id. Elit pellentesque habitant morbi tristique senectus et netus et. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae." +
                 "Morbi tristique senectus et netus et malesuada fames ac. Semper eget duis at tellus at urna condimentum mattis. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Fringilla ut morbi tincidunt augue. Feugiat nisl pretium fusce id velit. Volutpat diam ut venenatis tellus in metus vulputate eu. Viverra aliquet eget sit amet tellus. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Facilisis sed odio morbi quis commodo odio. Laoreet non curabitur gravida arcu. In nibh mauris cursus mattis molestie a.</p>",
         coverPhoto: blueCrop,
-        coverPhotoFull: blueOther,
+        coverPhotoFull: blueFull,
         photos: []
       },
       {
