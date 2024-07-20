@@ -1019,7 +1019,6 @@ a .box-link-explore:active {
   font-size: 18px;
   color: #1b4064;
   text-align: center;
-  padding-bottom: 24px;
 }
 .articles-content .articles-container {
   max-width: 1240px;
@@ -1205,6 +1204,12 @@ h4 {
   border: 2px solid black;
   margin-top: 10px;
   display: block;
+  opacity: 0; /* Initially hide the image */
+  transition: opacity 0.7s ease; /* Apply transition effect */
+}
+
+.article-img.loaded {
+  opacity: 1; /* Fade in the image when it's loaded */
 }
 
 .article-page {
@@ -1276,6 +1281,41 @@ h4 {
   padding-top: 32px;
 }
 
+.scroll-up {
+  position: fixed;
+  font-size: 28px;
+  color: #f2ecd9;
+  background-color: #02124a;
+  border: 2px solid #f2ecd9;
+  border-radius: 40px;
+  width: 30px;
+  height: 30px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 20;
+  display: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  cursor: pointer;
+  animation: fadeInBtn ease 0.7s;
+}
+
+.show-scroll {
+  display: flex;
+}
+
+@keyframes fadeInBtn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 footer {
   display: inline-block;
   background-color: #02124a;

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import TopScroller from "./TopScroller";
 
 function Hero(){
     const [goUp, setGoUp] = useState(false);
@@ -31,22 +32,16 @@ function Hero(){
 
     return (
         <>
-            <div className="homehero">
-                <p className="home-p">
-                    You've Landed <span className="group">in the</span><br /> 
-                    Mind-Space of<br />
-                    <Link onClick={openNav} to="/About">
-                        <a><span className="box-link">Andrew <span className="break">Yturaldi</span></span></a>
-                    </Link>
-                </p>
-            </div>
-            {/* page up */}
-            <div
-            onClick={scrollToTop}
-            className={`scroll-up ${goUp ? "show-scroll" : ""}`}
-            >
-            ^
-            </div>
+          <div className="homehero">
+              <p className="home-p">
+                  You've Landed <span className="group">in the</span><br /> 
+                  Mind-Space of<br />
+                  <Link onClick={openNav} to="/About">
+                      <a><span className="box-link">Andrew <span className="break">Yturaldi</span></span></a>
+                  </Link>
+              </p>
+              <TopScroller />
+          </div>
         </>
     )
 }

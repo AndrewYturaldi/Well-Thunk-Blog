@@ -1,15 +1,18 @@
-import searchIcon from '../images/searchIcon.jpg';
+//import searchIcon from '../images/searchIcon.jpg';
 import Article from '../components/Article';
 import blogData from '../blogData';
+import TopScroller from './TopScroller';
 
 
 function ArticlesContent(){
+
     return (
         <>
             <div className="articles-content">
                 <div className="articles-container">
                 <h2 className="title">The Blog</h2>
                 <h4 className="subtitle">Check Out the Articles Below!</h4>
+                    {/* Search Bar and Buttons */}
                     {/* <div className="topics-section">
                         <form>
                             <input placeholder="Search Articles" type="text"></input>
@@ -40,6 +43,7 @@ function ArticlesContent(){
                         })}
                     </div>
                 </div>
+                <TopScroller />
             </div>
         </>
     )

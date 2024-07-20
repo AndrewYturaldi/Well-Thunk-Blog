@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import TopScroller from "../components/TopScroller";
 import CheckoutArticles from "../components/CheckoutArticles"
 import { useParams } from "react-router-dom";
 import blogData from '../blogData';
@@ -35,6 +36,7 @@ function ArticlePage() {
                 </div>
             </div>
             <CheckoutArticles />
+            <TopScroller />
             <Footer />
         </>
     );
