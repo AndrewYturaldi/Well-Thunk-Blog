@@ -10,7 +10,7 @@ import breakfastCrop from "./images/ArticleImages/CoverPhotos/Crop/breakfastCrop
 import breakfastFull from "./images/ArticleImages/CoverPhotos/Full/breakfastFull.jpg";
 import blueCrop from "./images/ArticleImages/CoverPhotos/Crop/blueCrop.jpg";
 // import blueFull from "./images/ArticleImages/CoverPhotos/Full/blueFull.jpg";
-import blueOther from "./images/ArticleImages/CoverPhotos/Full/blueFull.jpg";
+import blueOther from "./images/ArticleImages/CoverPhotos/Full/blueOther.jpg";
 import everywhereAtCrop from "./images/ArticleImages/CoverPhotos/Crop/everywhereAtTheEndOfTimeCrop.jpg";
 import everywhereAtFull from "./images/ArticleImages/CoverPhotos/Full/everywhereAtTheEndOfTimeFull.jpg";
 import monksMoundCrop from "./images/ArticleImages/CoverPhotos/Crop/monksMoundCrop.jpg";
