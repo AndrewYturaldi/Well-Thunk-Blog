@@ -9,7 +9,7 @@ import graveFull from "./images/ArticleImages/CoverPhotos/Full/gravesiteFull.jpg
 import breakfastCrop from "./images/ArticleImages/CoverPhotos/Crop/breakfastCrop.jpg";
 import breakfastFull from "./images/ArticleImages/CoverPhotos/Full/breakfastFull.jpg";
 import blueCrop from "./images/ArticleImages/CoverPhotos/Crop/blueCrop.jpg";
-import blueFull from "./images/ArticleImages/CoverPhotos/Full/blueFull.jpg";
+import blueFull from "./images/ArticleImages/CoverPhotos/Full/blueFull.JPG";
 import everywhereAtCrop from "./images/ArticleImages/CoverPhotos/Crop/everywhereAtTheEndOfTimeCrop.jpg";
 import everywhereAtFull from "./images/ArticleImages/CoverPhotos/Full/everywhereAtTheEndOfTimeFull.jpg";
 import monksMoundCrop from "./images/ArticleImages/CoverPhotos/Crop/monksMoundCrop.jpg";
