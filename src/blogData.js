@@ -1,3 +1,5 @@
+import canmanCrop from "./images/ArticleImages/CoverPhotos/Crop/canmanCrop.jpg";
+import canmanFull from "./images/ArticleImages/CoverPhotos/Full/canmanFull.jpg";
 import moonCrop from "./images/ArticleImages/CoverPhotos/Crop/moonCrop.jpg";
 import moonFull from "./images/ArticleImages/CoverPhotos/Full/moonFull.jpg";
 import planeCrop from "./images/ArticleImages/CoverPhotos/Crop/airplaneCrop.jpg";
@@ -27,6 +29,22 @@ import spotifyFull from "./images/ArticleImages/CoverPhotos/Full/spotifyFull.jpg
 const blogData = [
     {
       id: 1,
+      title: "Small Business - The CanMan",
+      author: "Andrew Yturaldi",
+      date: "January 4, 2025",
+      section: "Other",
+      content: "<p class='first-paragraph'>As someone who has been working with a small business called the CanMan for just over 5 months now, I've come to realize how amazing small business is. Before I arrived at the CanMan, which is a can-cleaning and pest control company serving the DFW area (<a href='https://canmancan.com' style='color:#842b2b;text-decoration:underline'>canmancan.com</a>), I worked with a few big companies: Chick-Fil-A, Discount Tire, and Kroger, respectively. While I have nothing against these companies, I had not truly understood just how much opportunity there is to work with a small business as opposed to the bigger ones. <br><br><br>" + 
+                "Allow me to dive into a quick backstory on how I landed at the CanMan. Over this past summer, I found myself in need of a job after taking nearly a year off of working to pursue full-time college. One day on a walk around my neighborhood, I saw an interesting looking garbage truck, except that it wasn't one. The guys operating it were cleaning the cans. The vibrant colors of the truck and professional look to the work made me instantly search them up online. I ended up telling my mom about them too, since I had never seen a can cleaning company before and was fascinated by it. Not more than a few weeks later, my mom informed me that the CanMan was looking to hire, via their facebook page. I applied immediately through email, went in for an interview, and got the job. I would not have known they were hiring if it wasn't for my mom. It truly felt as though God had provided a job right when I needed it! <br><br><br>" +
+                "In my time working with the CanMan crew since August, I've been able to see the growth of this company firsthand. We've changed from a warehouse in Terrell to Rowlett, sold off an attic restoration truck, dealt with multiple mishaps, started using electronic business cards for customers to scan, and more. Not only have I been able to see the growth, but I've been able to play an active role in it. This has included putting out door hangers, speaking with customers, and representing the CanMan in a good light by working with excellence in everything I do. <br><br><br> " +
+                "Not only have I seen growth in the company, but I've also seen growth in myself. I hadn't quite realized how much I was growing until I received the outside perspective of my bosses, Cade & Chase, the brothers who run CanMan. They have encouraged, listened to, and supported me as one of their workers. I've grown as a driver, worker, and representative of CanMan. As a follower of Jesus, being with the CanMan and having bosses who are of the faith has been central for spiritual growth as well. Lastly, I have gained a greater respect for delivery drivers and blue collar workers in similar jobs, and it almost feels as though we are on the same team even though we wear different uniforms and work for separate companies. <br><br><br>" +
+                "Another aspect of working with this small business is that it's a small crew. As of the time of this writing, there are about 8 of us total that make up the whole team. Working with fewer people allows me to be seen and cared for and gives me a greater sense of purpose knowing how much I'm needed. Furthermore, Lord willing, this company will grow into something much bigger than it is! Getting to be a part of it while it's still small is a blessing from God. <br><br><br> " +
+                "Even though I have only ever worked for this one particular small company, it has opened my eyes to the world of small business. I have a greater awareness, appreciation, and love for them. From house cleaners to coffee shops and beyond, I look forward to learning more about the world of small business as I continue to work within it.</p>",
+      coverPhoto: canmanCrop,
+      coverPhotoFull: canmanFull,
+      photos: []
+    },
+    {
+      id: 2,
       title: "All About the Moon",
       author: "Andrew Yturaldi",
       date: "June 10, 2024",
@@ -42,7 +60,7 @@ const blogData = [
       photos: []
     },
     {
-        id: 2,
+        id: 3,
         title: "Airplanes at the Airport",
         author: "Andrew Yturaldi",
         date: "June 10, 2024",
@@ -58,7 +76,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 3,
+        id: 4,
         title: "Monorails at Disney World",
         author: "Andrew Yturaldi",
         date: "June 10, 2024",
@@ -74,7 +92,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 4,
+        id: 5,
         title: "Why Must We Die?",
         author: "Andrew Yturaldi",
         date: "June 10, 2024",
@@ -90,7 +108,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 5,
+        id: 6,
         title: "Breakfast is the Best Meal",
         author: "Andrew Yturaldi",
         date: "June 10, 2024",
@@ -106,7 +124,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 6,
+        id: 7,
         title: "The Color Blue",
         author: "Andrew Yturaldi",
         date: "July 19, 2024",
@@ -122,7 +140,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 7,
+        id: 8,
         title: "Everywhere at the End of Time",
         author: "Andrew Yturaldi",
         date: "July 19, 2024",
@@ -138,7 +156,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 8,
+        id: 9,
         title: "The Tallest North American Pyramid",
         author: "Andrew Yturaldi",
         date: "July 19, 2024",
@@ -154,7 +172,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 9,
+        id: 10,
         title: "Hexagons in Nature",
         author: "Andrew Yturaldi",
         date: "July 19, 2024",
@@ -170,7 +188,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 10,
+        id: 11,
         title: "Interesting Insights About Pi",
         author: "Andrew Yturaldi",
         date: "July 19, 2024",
@@ -186,7 +204,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 11,
+        id: 12,
         title: "Volcanoes Are Cool",
         author: "Andrew Yturaldi",
         date: "July 19, 2024",
@@ -202,7 +220,7 @@ const blogData = [
         photos: []
       },
       {
-        id: 12,
+        id: 13,
         title: "My Spotify Playlists",
         author: "Andrew Yturaldi",
         date: "July 19, 2024",
