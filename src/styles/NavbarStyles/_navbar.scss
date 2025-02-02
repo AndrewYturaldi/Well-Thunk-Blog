@@ -94,7 +94,8 @@ a:active { text-decoration: none; color: $yellow; }
 
 .mobile-navbar {
     position: fixed;
-    left: -100%;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100%;
     z-index: 10;
@@ -104,19 +105,21 @@ a:active { text-decoration: none; color: $yellow; }
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
     font-family: 'Courier Prime';
     font-size: $h4-font;
     row-gap: 25px;
     list-style: none;
+    transform: translateX(-100%); /* Initially off-screen */
 
-    @media (max-width: 533px){
+    @media (max-width: 533px) {
         display: flex;
     }
 }
 
-.open-nav {
-    left: 0;
+/* When the nav is open, slide it in */
+.mobile-navbar.open-nav {
+    transform: translateX(0); /* Move navbar to 0, visible position */
 }
 
 .xIconWhite, .xIconYellow {
