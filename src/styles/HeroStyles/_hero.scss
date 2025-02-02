@@ -75,30 +75,6 @@
      }
 }
 
-.scroll-up {
-   position: fixed;
-   font-size: $h4-font;
-   color: $tan;
-   background-color: $dark-blue;
-   border: 2px solid $tan;
-   border-radius: 40px;
-   width: 30px;
-   height: 30px;
-   bottom: 30px;
-   right: 20px;
-   z-index: 20;
-   display: none;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   padding: 12px;
-   cursor: pointer;
- }
-
- .show-scroll {
-   display: flex;
- }
-
  .group {
    white-space: nowrap; /* Prevent the span content from wrapping */
  }
