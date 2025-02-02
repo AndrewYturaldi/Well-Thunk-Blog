@@ -69,7 +69,6 @@ a:visited {
 a:hover {
   text-decoration: none;
   color: #ffd000;
-  transition: color 0.8s ease;
 }
 
 a:active {
@@ -299,8 +298,6 @@ a .box-link:hover {
   text-decoration: none;
   color: #ffd000;
   background-color: #02124a;
-  transition: color 0.75s ease;
-  transition: background-color 0.75s ease;
 }
 
 a .box-link:active {
@@ -408,8 +405,6 @@ a .box-link-explore:hover {
   text-decoration: none;
   color: #ffd000;
   background-color: #02124a;
-  transition: color 0.75s ease;
-  transition: background-color 0.75s ease;
 }
 
 a .box-link-explore:active {
