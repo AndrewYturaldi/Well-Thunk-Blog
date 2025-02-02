@@ -13,7 +13,7 @@ function AboutContent(){
                             <h2>Andrew <span className="last-name">Yturaldi</span></h2>
                             <p> 
                                 Hi There! <br /><br />
-                                My name is Andrew /*ee-tur-all-dee*/, and I am a 21 year-old follower of Jesus Christ. 
+                                My name is Andrew /*ee-tur-all-dee*/, and I am a 22 year-old follower of Jesus Christ. 
                                 <span className="red-text"> Whether you already have a relationship with God or you are unsure, I highly encourage 
                                 you to <span>seek</span> Him today! God wants to be close with you! &#123;Jeremiah 29:13&#125;</span> I enjoy music, 
                                 conversation, thinking, nature, breakfast, and so much more! I&#39;ve been playing guitar since I was 13, and I 
